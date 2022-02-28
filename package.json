@@ -1,0 +1,25 @@
+{
+  "name": "activebox",
+  "version": "1.0.0",
+  "description": "some description",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selukdiana/activebox_landing.git"
+  },
+  "author": "Diana Selyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selukdiana/activebox_landing/issues"
+  },
+  "homepage": "https://github.com/selukdiana/activebox_landing#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2"
+  }
+}
