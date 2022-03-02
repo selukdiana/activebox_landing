@@ -1,0 +1,25 @@
+@use "sass:math";
+//colors
+
+$white: rgba(255, 255, 255, 1);
+$orange: rgba(255, 67, 67, 1);
+$deep_gray: rgba(45, 48, 51, 1);
+$gray: rgba(108, 114, 121, 1);
+$light-gray: rgba(198, 203, 205, 1);
+$nav-gray: rgba(186, 187, 197, 1);
+$gray-blue:rgba(101, 105, 128, 1);
+
+//font
+
+$font-family: 'Raleway', sans-serif;
+$font-size: 18;
+$_12px: math.div(12rem, $font-size);
+$_13px: math.div(13rem, $font-size);
+$_14px: math.div(14rem, $font-size);
+$_18px: math.div(18rem, $font-size);
+$_20px: math.div(20rem, $font-size);
+$_24px: math.div(24rem, $font-size);
+$_30px: math.div(30rem, $font-size);
+$_36px: math.div(36rem, $font-size);
+$_48px: math.div(48rem, $font-size);
+$_64px: math.div(64rem, $font-size);
