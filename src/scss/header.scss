@@ -33,7 +33,7 @@
       margin-top: 50px;
     }
     &.active {
-      transform: scale(0);
+      margin-top: 100vh;
     }
   }
 }
@@ -41,7 +41,7 @@
 .top-header {
   display: flex;
   @media (max-width: 768px) {
-    padding: 18px;
+    padding: 18px 0;
   }
   justify-content: space-between;
   align-items: center;
@@ -76,7 +76,13 @@
     }
   }
   &__nav {
+    @media (max-width: 768px) and (orientation: landscape) {
+      overflow: auto;
+      height: 100vh;
+      padding-bottom: 60px;
+    }
     @media (max-width: 768px) {
+      // position: fixed;
       position: absolute;
       z-index: 2;
       width: 100%;
@@ -84,6 +90,7 @@
       left: 0;
       transition: all 0.3s ease 0s;
       &.active {
+        // top: 10%;
         top: 100%;
       }
     }
@@ -144,7 +151,7 @@
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: flex-start;
-    padding: 18px;
+    padding: 18px 0;
   }
   &__item {
     text-align: center;
