@@ -5,30 +5,54 @@
   }
 }
 .content-features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 88px;
+  // margin: 0 -5px;
   // .content-features__card
-
   &__card {
+    flex: 0 0 370px;
+    // margin: 0 5px;
   }
 }
 .card-features {
   // .card-features__content
-
   &__content {
   }
 }
 .content-card {
+  text-align: center;
   // .content-card__img
 
   &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+    & i {
+      font-size: 100px;
+      color: $orange;
+    }
   }
 
   // .content-card__title
 
   &__title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    margin-bottom: 44px;
+    color: $deep_grey;
   }
 
   // .content-card__text
 
   &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+    color: $grey;
   }
 }
