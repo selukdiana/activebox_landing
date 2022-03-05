@@ -26,7 +26,7 @@
 92C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\boolbase\index.js130313308750000000 0
 122C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\@parcel\transformer-sass\lib\SassTransformer.js121436361000000000 0
 101C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\entities\lib\maps\xml.json121436361000000000 0
-66C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist132909461142401856 1
+66C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist132909474399567688 1
 131C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\@parcel\core\test\fixtures\invalid-target-source-missing132905228065902935 1
 119C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\@parcel\hash\parcel-hash.linux-x64-musl.node121436361000000000 0
 87C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\chokidar\lib132905233292546735 1
@@ -50,7 +50,7 @@
 106C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\type-fest\ts41\pascal-case.d.ts121436361000000000 0
 119C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\@parcel\reporter-dev-server\src\HMRServer.js121436361000000000 0
 118C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\postcss-normalize-repeat-style\package.json132905228123773073 0
-84C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\src\scss\features.scss132909461056257164 0
+84C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\src\scss\features.scss132909474396007208 0
 109C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\node-addon-api\tools\check-napi.js121436361000000000 0
 105C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\source-map\lib\mapping-list.js131369414910000000 0
 122C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\caniuse-lite\data\features\css-initial-value.js121436361000000000 0
@@ -1380,7 +1380,7 @@
 99C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\svgo\lib\svgo\plugins.js121436361000000000 0
 100C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\svgo\dist\svgo.browser.js121436361000000000 0
 98C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\@parcel\types\unsafe.js121436361000000000 0
-85C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist\index.da533f7e.css132909461141469880 0
+85C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist\index.da533f7e.css132909474399268513 0
 121C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\htmlparser2\node_modules\entities\package.json132905228116141211 0
 100C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\supports-color\browser.js121436361000000000 0
 106C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\node_modules\css-tree\lib\lexer\structure.js121436361000000000 0
@@ -4884,7 +4884,7 @@
 85C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist\index.548e626f.css132905235846098313 0
 84C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist\index.739bf03c.js132909461142306043 0
 84C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist\index.7ffdec66.js132909461142306043 0
-89C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist\index.da533f7e.css.map132909461141478867 0
+89C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist\index.da533f7e.css.map132909474399537764 0
 84C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist\index.fca4bad3.js132905235846098313 0
 88C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist\index.fca4bad3.js.map132905235847280293 0
 77C:\Users\diana\Documents\FE25-onl-Front-End\activebox_landing\dist\index.html132909461141469880 0
