@@ -12,23 +12,14 @@ $grey-blue: rgba(101, 105, 128, 1);
 //font
 
 $font-family: 'Raleway', sans-serif;
-$font-size: 18;
-html {
-  font-family: $font-family;
-  font-size: $font-size + px;
-  @media (max-width: 1024px) {
-    $font-size: 14;
-    font-size: $font-size + px;
-  }
-}
 
-$_12px: math.div(12rem, $font-size);
-$_13px: math.div(13rem, $font-size);
-$_14px: math.div(14rem, $font-size);
-$_18px: math.div(18rem, $font-size);
-$_20px: math.div(20rem, $font-size);
-$_24px: math.div(24rem, $font-size);
-$_30px: math.div(30rem, $font-size);
-$_36px: math.div(36rem, $font-size);
-$_48px: math.div(48rem, $font-size);
-$_64px: math.div(64rem, $font-size);
+$_12px: math.div(12rem, 18);
+$_13px: math.div(13rem, 18);
+$_14px: math.div(14rem, 18);
+$_18px: math.div(18rem, 18);
+$_20px: math.div(20rem, 18);
+$_24px: math.div(24rem, 18);
+$_30px: math.div(30rem, 18);
+$_36px: math.div(36rem, 18);
+$_48px: math.div(48rem, 18);
+$_64px: math.div(64rem, 18);
