@@ -1,63 +1,107 @@
 .employees {
+  // .employees__row
 
-		// .employees__row
-
-		&__row {
-		}
-}
-.container {
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px -10px;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      row-gap: 50px;
+    }
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
 }
 .row-employees {
+  // .row-employees__card
 
-		// .row-employees__card
-
-		&__card {
-		}
+  &__card {
+    margin: 0 10px;
+    @media (max-width: 768px) {
+      width: 20rem;
+    }
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
 }
 .card-employees {
+  // .card-employees__content
 
-		// .card-employees__content
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
 
-		&__content {
-		}
+  // .card-employees__img
 
-		// .card-employees__img
+  &__img {
+    max-width: 15rem;
+    max-height: 15rem;
+    margin-bottom: 1.67rem;
+    @media (max-width: 768px) {
+      max-width: none;
+      max-height: none;
+      max-width: 100%;
+      height: 16.3rem;
+    }
+    @media (max-width: 576px) {
+      max-width: 50%;
+      height: 50%;
+    }
+    @media (max-width: 320px) {
+      max-width: 100%;
+      height: 16.3rem;
+    }
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 
-		&__img {
-		}
+  // .card-employees__title
 
-		// .card-employees__title
+  &__title {
+    font-weight: 700;
+    font-size: $_24px;
+    color: $deep_grey;
+    text-transform: capitalize;
+    line-height: calc(28em / 24);
+    margin-bottom: 0.3rem;
+  }
 
-		&__title {
-		}
+  // .card-employees__subtitle
 
-		// .card-employees__subtitle
+  &__subtitle {
+    font-weight: 400;
+    font-size: $_18px;
+    color: $orange;
+    text-transform: uppercase;
+    line-height: calc(21em / 18);
+    margin-bottom: 1rem;
+    flex-grow: 1;
+  }
 
-		&__subtitle {
-		}
+  // .card-employees__description
 
-		// .card-employees__description
+  &__description {
+    font-weight: 400;
+    font-size: $_18px;
+    color: $grey;
+    line-height: calc(21em / 18);
+    margin-bottom: 2rem;
+  }
 
-		&__description {
-		}
+  // .card-employees__socials
 
-		// .card-employees__socials
-
-		&__socials {
-		}
-}
-.socials {
-
-		// .socials__item
-
-		&__item {
-		}
-}
-.fab {
-}
-.fa-facebook-f {
-}
-.fa-twitter {
-}
-.fa-linkedin {
+  &__socials {
+    width: 128px;
+  }
 }

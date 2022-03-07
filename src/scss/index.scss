@@ -37,6 +37,9 @@ body.lock {
   @media (max-width: 768px) {
     max-width: 720px;
   }
+  @media (max-width: 576px) {
+    max-width: 540px;
+  }
   @media (max-width: 320px) {
     max-width: 280px;
     padding: 0;
@@ -72,4 +75,23 @@ section {
     width: 280px;
     line-height: 60px;
   }
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  // .socials__item
+
+  &__item {
+    width: 39px;
+    height: 39px;
+    border: 1px solid $light-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.fab {
+  color: $light-grey;
+  font-size: 18px;
 }
