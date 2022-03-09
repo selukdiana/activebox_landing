@@ -6,6 +6,7 @@
 @import 'work.scss';
 @import 'employees.scss';
 @import 'testimonials.scss';
+@import 'download.scss';
 
 * {
   margin: 0;
@@ -59,6 +60,7 @@ section {
   text-transform: uppercase;
   cursor: pointer;
   line-height: 80px;
+  text-align: center;
   a {
     color: $white;
   }
