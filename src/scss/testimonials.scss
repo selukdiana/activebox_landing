@@ -1,0 +1,88 @@
+.testimonials {
+  padding: 0;
+  & .swiper-pagination-bullet {
+    width: $_14px;
+    height: $_14px;
+    margin: 0 12px !important;
+    border: 1px solid $violet;
+    opacity: 1;
+    background-color: transparent;
+
+    &-active {
+      background-color: $violet;
+    }
+  }
+}
+.slider {
+  position: relative;
+
+  &__wrapper {
+    margin-bottom: $_30px;
+  }
+  // .slider__item
+
+  &__item {
+    display: flex;
+    background-color: $dark_violet;
+    @media (max-width: 576px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  // .slider__left
+
+  &__left {
+    width: 50%;
+    height: 490px;
+    @media (max-width: 576px) {
+      height: 210px;
+      width: 100%;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  // .slider__right
+
+  &__right {
+    width: 50%;
+    color: $white;
+    padding: 6.5rem $_20px;
+
+    @media (max-width: 576px) {
+      width: 100%;
+      padding-top: 0;
+      text-align: center;
+    }
+  }
+
+  // .slider__speech
+
+  &__speech {
+    font-family: 'Cardo';
+    font-weight: 700;
+    font-style: italic;
+    font-size: $_36px;
+    line-height: calc(48em / 36);
+    max-width: 26rem;
+    margin: 0 auto 25px;
+  }
+
+  // .slider__author
+
+  &__author p {
+    font-weight: 700;
+    font-size: $_13px;
+    line-height: calc(15em / 13);
+    max-width: 26rem;
+    margin: 0 auto;
+  }
+
+  &__pagination {
+    position: static;
+  }
+}
