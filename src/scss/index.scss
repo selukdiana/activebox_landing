@@ -8,6 +8,7 @@
 @import 'testimonials.scss';
 @import 'download.scss';
 @import 'info.scss';
+@import 'footer.scss';
 
 * {
   margin: 0;
@@ -93,9 +94,21 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
   }
 }
 .fab {
   color: $light-grey;
   font-size: 18px;
+  transition: 0.5s;
+}
+
+.socials__item:hover {
+  border-color: $orange;
+  transform: translateY(-5%);
+}
+
+.socials__item:hover .fab {
+  color: $orange;
 }

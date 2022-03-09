@@ -1,0 +1,20 @@
+.footer {
+  padding: 1.5rem 0;
+  background-color: rgba(44, 49, 84, 1);
+
+  // .footer__text
+
+  &__text {
+    margin: 0 auto;
+    max-width: 370px;
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: calc(21em / 18);
+    color: $grey-blue;
+    text-align: center;
+
+    & span {
+      color: $white;
+    }
+  }
+}
