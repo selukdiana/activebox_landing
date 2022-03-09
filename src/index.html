@@ -4,10 +4,483 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./scss/index.scss" />
+
     <title>Document</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top top-header">
+          <div class="top-header__logo">
+            <a href="#">active</a>
+          </div>
+
+          <nav class="top-header__nav nav-header">
+            <ul class="nav-header__list list-header">
+              <li class="list-header__item"><a href="#">Features</a></li>
+              <li class="list-header__item"><a href="#">Works</a></li>
+              <li class="list-header__item"><a href="#">Our team</a></li>
+              <li class="list-header__item"><a href="#">Testimonials</a></li>
+              <li class="list-header__item"><a href="#">Download</a></li>
+            </ul>
+          </nav>
+          <div class="top-header__burger burger-header">
+            <span></span>
+          </div>
+        </div>
+        <div class="header__body body-header">
+          <h1 class="body-header__title">
+            Your Favorite One Page Multi Purpose Template
+          </h1>
+          <div class="body-header__text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              commodo cursus magna <br />vel scelerisque nisl consectetur et.
+            </p>
+          </div>
+          <div class="body-header__btn colored-btn">
+            <a href="#">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="features">
+      <div class="container">
+        <div class="features__content content-features">
+          <div class="content-features__card">
+            <div class="card-features__content content-card">
+              <div class="content-card__img">
+                <i class="icon-pen"> </i>
+              </div>
+              <h3 class="content-card__title">Easily customized</h3>
+              <p class="content-card__text">
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla non metus auctor fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="content-features__card">
+            <div class="card-features__content content-card">
+              <div class="content-card__img">
+                <i class="icon-computer"> </i>
+              </div>
+              <h3 class="content-card__title">Responsive ready</h3>
+              <p class="content-card__text">
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla non metus auctor fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="content-features__card">
+            <div class="card-features__content content-card">
+              <div class="content-card__img">
+                <i class="icon-lamp"> </i>
+              </div>
+              <h3 class="content-card__title">Modern design</h3>
+              <p class="content-card__text">
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla non metus auctor fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="content-features__card">
+            <div class="card-features__content content-card">
+              <div class="content-card__img">
+                <i class="icon-star"> </i>
+              </div>
+              <h3 class="content-card__title">Clean code</h3>
+              <p class="content-card__text">
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla non metus auctor fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="content-features__card">
+            <div class="card-features__content content-card">
+              <div class="content-card__img">
+                <i class="icon-check-mark"> </i>
+              </div>
+              <h3 class="content-card__title">Ready to ship</h3>
+              <p class="content-card__text">
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla non metus auctor fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="content-features__card">
+            <div class="card-features__content content-card">
+              <div class="content-card__img">
+                <i class="icon-cart"> </i>
+              </div>
+              <h3 class="content-card__title">Download for free</h3>
+              <p class="content-card__text">
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla non metus auctor fringilla.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work">
+      <div class="gallery">
+        <a href="#" class="gallery__item">
+          <div class="gallery__item-hover hover-item">
+            <h3 class="hover-item__title">Project name</h3>
+            <div class="hover-item__text">
+              <p>Use interface design</p>
+            </div>
+          </div>
+          <img src="./img/work/1.jpg" alt="some description" />
+        </a>
+        <a href="#" class="gallery__item">
+          <div class="gallery__item-hover hover-item">
+            <h3 class="hover-item__title">Project name</h3>
+            <div class="hover-item__text">
+              <p>Use interface design</p>
+            </div>
+          </div>
+          <img src="./img/work/2.jpg" alt="some description" />
+        </a>
+        <a href="#" class="gallery__item">
+          <div class="gallery__item-hover hover-item">
+            <h3 class="hover-item__title">Project name</h3>
+            <div class="hover-item__text">
+              <p>Use interface design</p>
+            </div>
+          </div>
+          <img src="./img/work/3.jpg" alt="some description" />
+        </a>
+        <a href="#" class="gallery__item">
+          <div class="gallery__item-hover hover-item">
+            <h3 class="hover-item__title">Project name</h3>
+            <div class="hover-item__text">
+              <p>Use interface design</p>
+            </div>
+          </div>
+          <img src="./img/work/4.jpg" alt="some description" />
+        </a>
+        <a href="#" class="gallery__item">
+          <div class="gallery__item-hover hover-item">
+            <h3 class="hover-item__title">Project name</h3>
+            <div class="hover-item__text">
+              <p>Use interface design</p>
+            </div>
+          </div>
+          <img src="./img/work/5.jpg" alt="some description" />
+        </a>
+        <a href="#" class="gallery__item">
+          <div class="gallery__item-hover hover-item">
+            <h3 class="hover-item__title">Project name</h3>
+            <div class="hover-item__text">
+              <p>Use interface design</p>
+            </div>
+          </div>
+          <img src="./img/work/6.jpg" alt="some description" />
+        </a>
+        <a href="#" class="gallery__item">
+          <div class="gallery__item-hover hover-item">
+            <h3 class="hover-item__title">Project name</h3>
+            <div class="hover-item__text">
+              <p>Use interface design</p>
+            </div>
+          </div>
+          <img src="./img/work/7.jpg" alt="some description" />
+        </a>
+        <a href="#" class="gallery__item">
+          <div class="gallery__item-hover hover-item">
+            <h3 class="hover-item__title">Project name</h3>
+            <div class="hover-item__text">
+              <p>Use interface design</p>
+            </div>
+          </div>
+          <img src="./img/work/8.jpg" alt="some description" />
+        </a>
+      </div>
+    </section>
+    <section class="employees">
+      <div class="container">
+        <div class="employees__row row-employees">
+          <div class="row-employees__card card-employees">
+            <div class="card-employees__content">
+              <div class="card-employees__img">
+                <img src="./img/employees/ruth.png" alt="" />
+              </div>
+              <h3 class="card-employees__title">Ruth woods</h3>
+              <h4 class="card-employees__subtitle">founder, ceo</h4>
+              <div class="card-employees__description">
+                <p>
+                  Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus.
+                  Maecenas sed diam eget risus varius blandit sit amet non
+                  magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                </p>
+              </div>
+              <div class="card-employees__socials socials">
+                <div class="socials__item">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="socials__item">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="socials__item">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-employees__card card-employees">
+            <div class="card-employees__content">
+              <div class="card-employees__img">
+                <img src="./img/employees/timothy.png" alt="" />
+              </div>
+              <h3 class="card-employees__title">Timothy Reed</h3>
+              <h4 class="card-employees__subtitle">co-founder, developer</h4>
+              <div class="card-employees__description">
+                <p>
+                  Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus.
+                  Maecenas sed diam eget risus varius blandit sit amet non
+                  magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                </p>
+              </div>
+              <div class="card-employees__socials socials">
+                <div class="socials__item">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="socials__item">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="socials__item">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-employees__card card-employees">
+            <div class="card-employees__content">
+              <div class="card-employees__img">
+                <img src="./img/employees/victoria.png" alt="" />
+              </div>
+              <h3 class="card-employees__title">Victoria Vladez</h3>
+              <h4 class="card-employees__subtitle">ui designer</h4>
+              <div class="card-employees__description">
+                <p>
+                  Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus.
+                  Maecenas sed diam eget risus varius blandit sit amet non
+                  magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                </p>
+              </div>
+              <div class="card-employees__socials socials">
+                <div class="socials__item">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="socials__item">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="socials__item">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-employees__card card-employees">
+            <div class="card-employees__content">
+              <div class="card-employees__img">
+                <img src="./img/employees/beverly.png" alt="" />
+              </div>
+              <h3 class="card-employees__title">Beverly Little</h3>
+              <h4 class="card-employees__subtitle">data scientist</h4>
+              <div class="card-employees__description">
+                <p>
+                  Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus.
+                  Maecenas sed diam eget risus varius blandit sit amet non
+                  magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                </p>
+              </div>
+              <div class="card-employees__socials socials">
+                <div class="socials__item">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="socials__item">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="socials__item">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="slider swiper">
+        <div class="slider__wrapper swiper-wrapper">
+          <div class="slider__item swiper-slide">
+            <div class="slider__left">
+              <img src="./img/testimonials/1.png" alt="" />
+            </div>
+            <div class="slider__right">
+              <div class="slider__speech">
+                <p>
+                  “Integer posuere erat a ante venenatis dapibus posuere velit
+                  aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                </p>
+              </div>
+              <div class="slider__author">
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item swiper-slide">
+            <div class="slider__left">
+              <img src="./img/testimonials/2.png" alt="" />
+            </div>
+            <div class="slider__right">
+              <div class="slider__speech">
+                <p>
+                  “Integer posuere erat a ante venenatis dapibus posuere velit
+                  aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                </p>
+              </div>
+              <div class="slider__author">
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item swiper-slide">
+            <div class="slider__left">
+              <img src="./img/testimonials/3.png" alt="" />
+            </div>
+            <div class="slider__right">
+              <div class="slider__speech">
+                <p>
+                  “Integer posuere erat a ante venenatis dapibus posuere velit
+                  aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                </p>
+              </div>
+              <div class="slider__author">
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item swiper-slide">
+            <div class="slider__left">
+              <img src="./img/testimonials/4.png" alt="" />
+            </div>
+            <div class="slider__right">
+              <div class="slider__speech">
+                <p>
+                  “Integer posuere erat a ante venenatis dapibus posuere velit
+                  aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                </p>
+              </div>
+              <div class="slider__author">
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item swiper-slide">
+            <div class="slider__left">
+              <img src="./img/testimonials/5.png" alt="" />
+            </div>
+            <div class="slider__right">
+              <div class="slider__speech">
+                <p>
+                  “Integer posuere erat a ante venenatis dapibus posuere velit
+                  aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                </p>
+              </div>
+              <div class="slider__author">
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider__pagination swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="download">
+      <div class="container">
+        <div class="download__main-text">
+          <p>Are You Ready to Start? Download Now For Free!</p>
+        </div>
+        <div class="download__text">
+          <p>Fusce dapibus, tellus ac cursus commodo</p>
+        </div>
+        <div class="download__btn colored-btn">
+          <a href="#">Download here</a>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <div class="container">
+        <div class="info__row">
+          <div class="info__item item-info">
+            <h3 class="item-info__title">Location</h3>
+            <div class="litem-info__text">
+              <p>3481 Melrose Place Beverly Hills, CA 90210</p>
+            </div>
+          </div>
+          <div class="info__item item-info">
+            <h3 class="item-info__title">Share with love</h3>
+            <div class="socials item-info__socials">
+              <div class="socials__item">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="socials__item">
+                <i class="fab fa-twitter"></i>
+              </div>
+              <div class="socials__item">
+                <i class="fab fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+          <div class="info__item item-info">
+            <h3 class="item-info__title">About ActiveBox</h3>
+            <div class="item-info__text">
+              <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Donec ullamcorper nulla non metus auctor fringilla.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__text">
+          <p>
+            Copyright © 2015 ActiveBox. All Rights Reserved Made with
+            <span>by Kamal Chaneman</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

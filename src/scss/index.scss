@@ -1,3 +1,15 @@
+@import 'cdn.scss';
+@import 'components.scss';
+@import 'iconsfont.scss';
+@import 'header.scss';
+@import 'features.scss';
+@import 'work.scss';
+@import 'employees.scss';
+@import 'testimonials.scss';
+@import 'download.scss';
+@import 'info.scss';
+@import 'footer.scss';
+
 * {
   margin: 0;
   padding: 0;
@@ -5,19 +17,98 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: $font-family;
+  font-size: 18px;
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 }
+body.lock {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .container {
   max-width: 1170px;
-  padding: 0 0.938rem;
+  padding: 0 15px;
   margin: auto;
   position: relative;
   z-index: 2;
+  @media (max-width: 1024px) {
+    max-width: 984px;
+  }
+  @media (max-width: 768px) {
+    max-width: 720px;
+  }
+  @media (max-width: 576px) {
+    max-width: 540px;
+  }
+  @media (max-width: 320px) {
+    max-width: 280px;
+    padding: 0;
+  }
 }
 
 section {
-  padding: 5rem 0;
+  padding: 6.34rem 0;
+}
+.colored-btn {
+  display: block;
+  width: 370px;
+  background-color: $orange;
+  font-weight: 900;
+  font-size: $_24px;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 80px;
+  text-align: center;
+  a {
+    color: $white;
+  }
+  &:hover {
+    background-color: rgba(231, 20, 20, 1);
+  }
+  &:active {
+    box-shadow: 0.222rem 0.222rem $_30px #ff4343;
+  }
+  @media (max-width: 1024px) {
+    width: 314px;
+    line-height: 80px;
+  }
+  @media (max-width: 768px) {
+    width: 280px;
+    line-height: 60px;
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  // .socials__item
+
+  &__item {
+    width: 39px;
+    height: 39px;
+    border: 1px solid $light-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+.fab {
+  color: $light-grey;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.socials__item:hover {
+  border-color: $orange;
+  transform: translateY(-5%);
+}
+
+.socials__item:hover .fab {
+  color: $orange;
 }
